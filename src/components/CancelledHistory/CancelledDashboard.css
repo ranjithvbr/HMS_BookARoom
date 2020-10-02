@@ -1,0 +1,18 @@
+
+  .mediaservicemaster .uploadsmasterheader{
+        height:60px !important;
+  }
+  .cancel_group_buttons_div{
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      justify-content: flex-end;
+    width: 100%;
+  }
+  .cancel_currentdate_app{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #545454 !important;
+    margin: 10px 10px;
+    width: 186px;
+  }

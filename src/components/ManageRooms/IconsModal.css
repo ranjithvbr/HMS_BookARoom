@@ -1,0 +1,79 @@
+.card_align {
+    width: 83px !important;
+    height: 83px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-modal-body {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.border_icon {
+    border: 1px solid #CCCCCC;
+    opacity: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.border_icon img {
+    width: 50px;
+    height: 78px;
+}
+
+.tvicon_adjust {
+    width: 103%;
+}
+
+.car_icon {
+    border: 1px solid #CCCCCC;
+    opacity: 1;
+    width: 16%;
+    height: 80px;
+}
+
+.overside {
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+/* .border_icon:active{
+    background-color: yellow;
+} */
+
+.back_red {
+
+    background: #80A7D6 0% 0% no-repeat padding-box;
+}
+
+.add_more_icons_manage {
+    display: flex;
+    justify-content: flex-end;
+    padding: 22px 32px 0px 0px;
+    font-size: 15px;
+    color: cornflowerblue;
+}
+
+.add_more_icons_manage p {
+    margin-right: 20px;
+}
+
+.iconmodel_ok {
+    font-size: 1.25rem !important;
+    background-color: rgb(38, 128, 235) !important;
+    color: #fff !important;
+    text-transform: none !important;
+    width: 10%;
+    border-radius: 4px !important;
+    height: 28px;
+}
+
+.addmoreiconinput {
+    display: none !important;
+}
+
+.add_more_icons_manage p{
+    cursor: pointer;
+}

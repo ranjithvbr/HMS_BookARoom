@@ -1,0 +1,17 @@
+.cell_eye {
+  padding-left: 20px !important;
+}
+.diet-grand_total {
+  font-size: 20px;
+  margin-right: 5px;
+  /* width: 114px;
+  height: 24px; */
+}
+.revtotal_amt {
+  font-size: 16px;
+  position: relative;
+  top: 2px;
+  /* width: 75px;
+  height: 19px; */
+  color: #ffffff;
+}

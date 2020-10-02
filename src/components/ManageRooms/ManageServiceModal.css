@@ -1,0 +1,447 @@
+.service_type_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.clinicbutton-container {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+.clinicCancel {
+  font-size: 1.25rem !important;
+  background-color: rgb(201, 201, 201) !important;
+  margin-right: 20px !important;
+  text-transform: none !important;
+  width: 20%;
+  border-radius: 2px !important;
+}
+
+.clinicSubmit {
+  font-size: 1.25rem !important;
+  background-color: rgb(38, 128, 235) !important;
+  color: #fff !important;
+  text-transform: none !important;
+  width: 20%;
+  border-radius: 2px !important;
+
+}
+
+.service_type_container .MuiButton-text {
+  padding: 6px 16px !important;
+
+}
+
+.label-box {
+  width: 100%;
+}
+
+/* .clinictotal_div{
+  width:50%;
+
+} */
+.charge_day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.kwd_align_manage {
+  margin-left: 18px;
+  font-size: 14px;
+  margin-left: 18px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+}
+
+/* .manage-modal{
+  z-index: 5000 !important;
+} */
+/* .MuiTypography-h6 {
+	color: #86b149 !important;
+} */
+
+
+.border_adjust {
+  border: 1px solid #CCCCCC;
+  opacity: 1;
+  padding: 1px;
+  width: 47px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.air_condition {
+  margin-top: 16%;
+  margin-left: 24%;
+  width: 18px;
+  height: 14px;
+}
+
+.ac_icon {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.addicon_color {
+  color: #3FB4A8;
+  margin-top: 5px;
+  font-size: 24px !important;
+  cursor: pointer;
+}
+
+.icon_color {
+  margin-top: 9% !important;
+  margin-left: 5% !important;
+  /* flex-basis: 25%; */
+}
+
+/* upload */
+.presc_inputbox {
+  width: 75%;
+}
+
+/* .presc_images{
+  background-color: #f3f0f0;
+  border: 8px solid #f3f0f0;
+  height: 100%;
+  width: 100%;
+} */
+.presc_images {
+  position: relative;
+  /* border: 2px solid #dddddd87; */
+  /* height: 100%; */
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.presc_labelbox {
+  margin-bottom: 10px;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+
+  float: left;
+  width: 100%;
+  height: 10%;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+}
+
+.ant-upload.ant-upload-select-picture-card>.ant-upload {
+  padding: 0 !important;
+
+}
+
+.top_upload {
+  margin-top: 7% !important;
+}
+
+.browse_button {
+  height: 31px;
+  float: right;
+  font-size: 13px !important;
+  background: #2680EB 0% 0% no-repeat padding-box !important;
+  padding: 6px 16px !important;
+  color: white !important;
+  border-radius: 0px !important;
+  text-transform: none !important;
+}
+
+/* @media (min-width: 600px){
+  .MuiGrid-grid-sm-3 .icon_color {
+   
+}
+} */
+/* @media (min-width: 600px){
+.MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+    margin-left: 1%;
+}
+} */
+@media only screen and (min-width: 600px) {
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0 !important;
+    max-width: 25% !important;
+
+  }
+}
+
+/* @media (min-width: 600px){
+.MuiGrid-grid-sm-4 .clinictotal_div{
+   margin-left: 1%;
+}
+} */
+@media (max-width: 768px) {
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0 !important;
+    max-width: 33.333333% !important;
+    flex-basis: 33.333333% !important;
+    margin-left: 3% !important;
+  }
+}
+
+/* @media (min-width: 600px){
+.MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+    display: contents;
+}
+} */
+.media_adjust {
+  margin-left: -5%;
+}
+
+@media (max-width:768px) {
+  .border_icon {
+    width: 51% !important;
+  }
+}
+
+.iconmodal_modal .Dialogmodal .MuiDialogTitle-root {
+  height: 55px !important;
+}
+
+@media (max-width:768px) {
+  .button_grid {
+    width: 100% !important;
+    display: flex !important;
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: flex-end !important;
+  }
+}
+
+@media (max-width:768px) {
+  .clinicbutton-container {
+    width: 25%;
+  }
+}
+
+@media (max-width:1024px) {
+  .clinicbutton-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: c;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.close_icon_addmodal_manage {
+  position: absolute !important;
+  cursor: pointer;
+  right: 5px;
+  top: 5px;
+  color: white;
+  background-color: #da1f4a;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.close_days {
+  font-size: 17px;
+  background-color: #da1f4a;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.div_image_browse {
+  height: 110px;
+  width: 130px;
+  border-radius: 4px;
+}
+
+.div_video_browse{
+  height: 110px;
+  width: 130px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.browse_scroll_align {
+  height: 200px;
+  overflow: auto;
+}
+
+.presc_browse_files .ant-upload.ant-upload-select-picture-card {
+  border-radius: 2px;
+  box-shadow: 0 0 1.5px 0px #ccc;
+}
+
+/* .iconmodel_baralign .MuiDialogTitle-root {
+  padding-bottom: 38px;
+} */
+
+.tag_container {
+  display: flex;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  box-shadow: 0 0 1.5px 0px #9e9595;
+  font-size: 13px;
+  padding: 5px;
+  margin: 0px 10px 10px 10px;
+  position: relative;
+  bottom: 14px;
+  right: 5px;
+}
+
+.tag_container img {
+  width: 16px;
+  margin-right: 10px;
+}
+
+.tag_master {
+  display: contents;
+  width: 94%;
+}
+
+.tag_name {
+  color: #565656;
+  margin-top: 2px;
+}
+
+.tag_quantity {
+  font-size: 13px;
+  margin-top: 2px;
+  color: #565656;
+}
+
+.tag_close {
+  color: red;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.roomupload_legend {
+  display: flex;
+  box-shadow: 0px 2px 4px 1px rgba(150,150,150,1);
+  justify-content: flex-start;
+  padding: 18px 0px 18px 17px;
+  margin-top: 15px !important;
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.room_master{
+  display: contents;
+}
+
+.browse_master{
+  display: flex;
+  justify-content: space-between;
+}
+
+.browse_master p:first-child{
+  margin: 5px 0px 0px 20px;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.uploadImgVid_master{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 0 1.5px 0px #ccc;
+  color: #797777;
+  height: 33px;
+  width: 75%;
+  cursor: pointer;
+}
+
+.uploadImgVid_label{
+  color: rgba(0,0,0,.85) !important;
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+
+/* test */
+
+/* div {
+  line-height: 200px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@supports (object-fit: cover) {
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+} */
+
+.progressbar_align{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 5;
+  width:100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.progressbar_align svg{
+  background-color: #fff;
+}
+
+.todateerrmsg_room .formdiv .Errormsg{
+  margin-top:0px;
+  font-size: 11.8px;
+  white-space: nowrap;
+}
+
+.uploadImgVid_error{
+    font-size: 12px;
+    margin-top: 4px;
+    color: red;
+}
+
+.uploadImgVid_errorheight{
+  height:20px;
+}
+
+.facilities_error{
+  font-size: 12px;
+  color: red;
+  white-space: nowrap;
+  position: relative;
+  bottom: 15px;
+}

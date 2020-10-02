@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_615" data-name="Path 615" d="M0,0H50V50H0Z" fill="#666"/>
+    </clipPath>
+  </defs>
+  <g id="baseline-airplay-24px" clip-path="url(#clip-path)">
+    <path id="Path_614" data-name="Path 614" d="M11.417,42.583h25l-12.5-12.5ZM42.667,3H5.167A4.179,4.179,0,0,0,1,7.167v25a4.179,4.179,0,0,0,4.167,4.167H13.5V32.167H5.167v-25h37.5v25H34.333v4.167h8.333a4.179,4.179,0,0,0,4.167-4.167v-25A4.179,4.179,0,0,0,42.667,3Z" transform="translate(1.083 3.25)" fill="#666"/>
+  </g>
+</svg>
